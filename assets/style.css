@@ -1,0 +1,172 @@
+/* Define the font and color for the body text */
+body {
+    font-family: sans-serif;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Define the font, size, and color for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #111;
+  }
+  
+  /* Define the font size for h1 elements */
+  h1 {
+    font-size: 2.5em;
+    padding:  50px 0px 20px 20px;
+  }
+  
+  /* Define the font size for h2 elements */
+  h2 {
+    font-size: 2em;
+    padding-top:  50px;
+  }
+  
+  /* Define the font, size, and color for links */
+  a {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #0074D9;
+    text-decoration: none;
+  }
+  
+  /* Define the font, size, and color for visited links */
+  a:visited {
+    color: #7FDBFF;
+  }
+  
+  /* Define the font, size, and color for links on hover */
+  a:hover {
+    color: #FFDC00;
+  }
+  
+  /* Define the font, size, and color for active links */
+  a:active {
+    color: #001F3F;
+  }
+  
+  /* Define the font, size, and color for unordered lists */
+  ul {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #333;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Define the font, size, and color for list items */
+  li {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #333;
+  }
+
+  section {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #contact li, nav li {
+    display: inline-block;
+  }
+
+  #contact img {
+    margin: 10px 20px;
+    max-height: 35px;
+  }
+  
+  /* Define the font, size, and color for the nav element */
+  nav {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #333;
+    background-color: #EEE;
+    padding: 15px;
+  }
+  
+  /* Define the font, size, and color for nav links */
+  nav a {
+    color: #111;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px;
+  }
+  
+  /* Define the font, size, and color for visited nav links */
+  nav a:visited {
+    color: #666;
+  }
+  
+  /* Define the font, size, and color for nav links on hover */
+  nav a:hover {
+    color: #FFF;
+    background-color: #333;
+  }
+  
+  /* Define the font, size, and color for active nav links */
+  nav a:active {
+    color: #FFF;
+    background-color: #333;
+  }
+  
+  /* Define the font, size, and color for the header element */
+  header {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #333;
+    background-color: #EEE;
+  }
+  
+  /* Define the font, size, and color for the main element */
+  main {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #333;
+    background-color: #FFF;
+    margin: 0 50px 100px 0;
+  }
+  
+  /* Define the font, size, and color for the footer element */
+  footer {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #333;
+    background-color: #EEE;
+  }
+  
+  footer p{ 
+    margin-left: 20px;
+  }
+  
+  /* Make the nav and footer elements fixed at the top and bottom of the page */
+  nav, footer {
+    position: fixed;
+    width: 100%;
+  }
+  
+  /* Make the nav element fixed at the top of the page */
+  nav {
+    top: 0;
+  }
+  
+  /* Make the footer element fixed at the bottom of the page */
+footer {
+    bottom: 0;
+  }
+
+canvas {
+    max-height: 500px;
+    max-width: 500px;
+}
+  
+/* Make the chart responsive */
+#my-chart {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+    
+  
