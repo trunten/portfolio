@@ -128,27 +128,27 @@ li {
 
 #p1 {
   grid-area: p1;
-  background-image: url(./images/placeholder1.jpg);
+  background-image: url(./images/diner.jpg);
 }
 
 #p2 {
   grid-area: p2;
-  background-image: url(./images/placeholder2.jpg);
+  background-image: url(./images/seo.jpg);
 }
 
 #p3 {
   grid-area: p3;
-  background-image: url(./images/placeholder3.jpg);
+  background-image: url(./images/css.jpg);
 }
 
 #p4 {
   grid-area: p4;
-  background-image: url(./images/placeholder4.jpg);
+  background-image: url(./images/design.jpg);
 }
 
 #p5 {
   grid-area: p5;
-  background-image: url(./images/placeholder5.jpg);
+  background-image: url(./images/study_guide.jpg);
 }
 
 #p6 {
@@ -245,7 +245,7 @@ margin: 25px auto;
 }
   
 /* Responsive styles */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   h1, h2 {
     font-size: 1.5em;
   }
