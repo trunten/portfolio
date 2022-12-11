@@ -255,6 +255,14 @@ margin: 25px auto;
     content:"\a";
     white-space: pre;
   }
+
+  footer {
+    display:none;
+  }
+
+  #contact img {
+    margin: 10px 20px;
+  }
 }
 
 @media screen and (max-width: 900px) {
