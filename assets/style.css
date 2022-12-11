@@ -16,237 +16,240 @@ body {
     margin: 0;
   }
 
-  .left, .right {
-    display: inline-block;
-    vertical-align: middle;
-  }
+section {
+  text-align: center;
+}
 
-  .left {
-    text-align: right;
-  }
+.bold {
+  font-weight: bold;
+}
 
-  .right {
-    text-align: left;
-    border-left: 3px solid var(--my-grey);
-    padding: 100px 0px 100px 20px;
-  }
+/* Define style for headings */
+h1, h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #5f5f5f;
+}
 
-  .left img {
-    max-height: 200px;
-    border: 3px solid var(--my-grey);
-    border-radius: 100%;
-    padding: 0 10px 30px 10px;
-    margin-right: 20px;
-  }
+h1 {
+  font-size: 2.5em;
+  padding:  50px 0px 20px 20px;
+}
 
-  .bold {
-    font-weight: bold;
-  }
+h2 {
+  font-size: 2em;
+  padding-top:  50px;
+}
 
-  #about-me {
-    max-width: 900px;
-    margin: 0 auto;
-  }
 
-  /* Projects section/grid */
-  #grid {
-    display: grid;
-    grid-template-rows: 1fr 1r;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "p1 p2 p3" "p4 p5 p6";
-    margin: 0 auto 50px;
-    padding: 0 20px;
-    row-gap: 20px;
-    column-gap: 30px;
-  }
+/* Define the style for unordered lists */
+ul {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: var(--near-black);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-  .projects {
-    height: 250px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-self: stretch;
-  }
+li {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: var(--near-black);
+}
 
-  .projects p {
-    padding: 10px;
-    display: inline-block;
-    background-color: rgba(227, 227, 227, 0.9);
-    width: 100%;
-    text-align: left;
-    margin: 0;
-  }
+/* About me styles */
+.left, .right {
+  display: inline-block;
+  vertical-align: middle;
+}
 
-  #p1 {
-    grid-area: p1;
-    background-image: url(./images/placeholder1.jpg);
-  }
+.left {
+  text-align: right;
+}
 
-  #p2 {
-    grid-area: p2;
-    background-image: url(./images/placeholder2.jpg);
-  }
+.right {
+  text-align: left;
+  border-left: 3px solid var(--my-grey);
+  padding: 100px 0px 100px 20px;
+}
 
-  #p3 {
-    grid-area: p3;
-    background-image: url(./images/placeholder3.jpg);
-  }
+.left img {
+  max-height: 200px;
+  border: 3px solid var(--my-grey);
+  border-radius: 100%;
+  padding: 0 10px 30px 10px;
+  margin-right: 20px;
+}
 
-  #p4 {
-    grid-area: p4;
-    background-image: url(./images/placeholder4.jpg);
-  }
+#about-me {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-  #p5 {
-    grid-area: p5;
-    background-image: url(./images/placeholder5.jpg);
-  }
+/* Projects section/grid */
+#grid {
+  display: grid;
+  grid-template-rows: 1fr 1r;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "p1 p2 p3" "p4 p5 p6";
+  margin: 0 auto 50px;
+  padding: 0 20px;
+  row-gap: 20px;
+  column-gap: 30px;
+}
 
-  #p6 {
-    grid-area: p6;
-    background-image: url(./images/placeholder6.jpg);
-  }
+.projects {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-self: stretch;
+}
 
-  
-  /* Define style for headings */
-  h1, h2 {
-    font-family: sans-serif;
-    font-weight: bold;
-    color: #5f5f5f;
-  }
-  
-  h1 {
-    font-size: 2.5em;
-    padding:  50px 0px 20px 20px;
-  }
-  
-  h2 {
-    font-size: 2em;
-    padding-top:  50px;
-  }
-  
-  
-  /* Define the style for unordered lists */
-  ul {
-    font-family: sans-serif;
-    font-size: 1em;
-    color: var(--near-black);
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    font-family: sans-serif;
-    font-size: 1em;
-    color: var(--near-black);
-  }
+.projects p {
+  padding: 10px;
+  display: inline-block;
+  background-color: rgba(227, 227, 227, 0.9);
+  width: 100%;
+  text-align: left;
+  margin: 0;
+}
 
-  section {
-    text-align: center;
-  }
+#p1 {
+  grid-area: p1;
+  background-image: url(./images/placeholder1.jpg);
+}
 
-  /* Contact section */
-  #contact li, nav li {
-    display: inline-block;
-  }
+#p2 {
+  grid-area: p2;
+  background-image: url(./images/placeholder2.jpg);
+}
 
-  #contact img {
-    margin: 10px 50px;
-    max-height: 35px;
-  }
+#p3 {
+  grid-area: p3;
+  background-image: url(./images/placeholder3.jpg);
+}
 
-  #contact {
-    margin-bottom: 100px;;
-  }
-  
-  /* nav menu */
-  nav {
-    font-family: sans-serif;
-    font-size: 1em;
-    color: var(--near-black);
-    background-color: var(--my-grey);
-    padding: 15px;
-  }
-  
-  nav a {
-    color: #111;
-    text-decoration: none;
-    margin-right: 15px;
-    padding: 5px;
-  }
-  
-  nav a:hover {
-    color: #FFF;
-    background-color: #333;
-  }
-  
-  
-  /* Header section */
-  header {
-    font-family: sans-serif;
-    font-size: 1em;
-    color: #333;
-    background-color: var(--my-grey);
-  }
-  
-  /* Define the font, size, and color for the main element */
-  main {
-    font-family: sans-serif;
-    font-size: 1em;
-    color: var(--near-black);
-    background-color: #FFF;
-    margin: 0 50px 100px 0;
-  }
-  
-  /* Define the style for the footer element */
-  footer {
-    font-family: sans-serif;
-    font-size: 1em;
-    color: var(--near-black);
-    background-color: var(--my-grey);
-  }
-  
-  footer p{ 
-    margin-left: 20px;
-  }
-  
-  /* Make the nav and footer elements fixed at the top and bottom of the page */
-  nav, footer {
-    position: fixed;
-    width: 100%;
-  }
-  
-  /* Make the nav element fixed at the top of the page */
-  nav {
-    top: 0;
-  }
-  
-  /* Make the footer element fixed at the bottom of the page */
+#p4 {
+  grid-area: p4;
+  background-image: url(./images/placeholder4.jpg);
+}
+
+#p5 {
+  grid-area: p5;
+  background-image: url(./images/placeholder5.jpg);
+}
+
+#p6 {
+  grid-area: p6;
+  background-image: url(./images/placeholder6.jpg);
+}
+
+/* Contact section */
+#contact li, nav li {
+  display: inline-block;
+}
+
+#contact img {
+  margin: 10px 50px;
+  max-height: 35px;
+}
+
+#contact {
+  margin-bottom: 100px;;
+}
+
+/* nav menu */
+nav {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: var(--near-black);
+  background-color: var(--my-grey);
+  padding: 15px;
+}
+
+nav a {
+  color: #111;
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+nav a:hover {
+  color: #FFF;
+  background-color: #333;
+}
+
+
+/* Header section */
+header {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #333;
+  background-color: var(--my-grey);
+}
+
+/* Define the font, size, and color for the main element */
+main {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: var(--near-black);
+  background-color: #FFF;
+  margin: 0 50px 100px 0;
+}
+
+/* Define the style for the footer element */
 footer {
-    bottom: 0;
-  }
+  font-family: sans-serif;
+  font-size: 1em;
+  color: var(--near-black);
+  background-color: var(--my-grey);
+}
+
+footer p{ 
+  margin-left: 20px;
+}
+
+/* Make the nav and footer elements fixed at the top and bottom of the page */
+nav, footer {
+  position: fixed;
+  width: 100%;
+}
+
+/* Make the nav element fixed at the top of the page */
+nav {
+  top: 0;
+}
+
+/* Make the footer element fixed at the bottom of the page */
+footer {
+  bottom: 0;
+}
 
 /* Chart style */
 canvas {
-    max-height: 500px;
-    max-width: 500px;
+  max-height: 500px;
+  max-width: 500px;
 }
-  
+
 /* Make the chart responsive */
 #my-chart {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
+width: 100%;
+height: auto;
+margin: 0 auto;
 }
-    
+  
 /* Responsive styles */
 @media screen and (max-width: 900px) {
-  h1 {
+  h1, h2 {
     font-size: 1.5em;
   }
 }
+
 @media screen and (max-width: 900px) {
   #grid {
     grid-template-rows: repeat(6, 1fr);
@@ -258,7 +261,7 @@ canvas {
   }
 
   .left img {
-    max-width: 200px;
+    max-width: 100px;
   }
 }
 
