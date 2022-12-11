@@ -4,6 +4,11 @@
   --near-black: #333;
 }
 
+/* Smooth scrolling */
+html {
+	scroll-behavior: smooth;
+}
+
 /* General styles */
 body {
     font-family: sans-serif;
@@ -57,11 +62,11 @@ body {
 
   .projects {
     height: 250px;
-    max-width: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: flex-end;
+    justify-self: stretch;
   }
 
   .projects p {
