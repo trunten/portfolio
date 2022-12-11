@@ -32,6 +32,7 @@ nav a, .projects a {
 
 nav a:hover, .projects a:hover {
   color: #FFF;
+  text-decoration: none;
   background-color: var(--near-black);
 }
 
