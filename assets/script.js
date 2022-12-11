@@ -39,7 +39,7 @@ const myChart = new Chart(ctx, {
 
 // Add event listeners to project images
 let projects = document.getElementsByClassName("projects");
-for (var p of projects) {
+for (let p of projects) {
   let a = p.getElementsByTagName("a").item(0)
   p.addEventListener("click", function() { a.click(); })
 }
