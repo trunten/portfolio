@@ -19,8 +19,24 @@ body {
 a {
   color: #111;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a, .projects a {
   margin-right: 15px;
   padding: 5px;
+}
+
+nav a:hover, .projects a:hover {
+  color: #FFF;
+  background-color: var(--near-black);
+}
+
+footer a:hover {
+  color: royalblue;
 }
 
 section {
@@ -29,6 +45,14 @@ section {
 
 .bold {
   font-weight: bold;
+}
+
+.small {
+  font-size: 0.7em;
+}
+
+#github {
+  display: none;
 }
 
 /* Define style for headings */
@@ -47,7 +71,6 @@ h2 {
   font-size: 2em;
   padding-top:  50px;
 }
-
 
 /* Define the style for unordered lists */
 ul {
@@ -96,6 +119,16 @@ li {
   padding-right: 20px;
 }
 
+#about-me p:last-of-type {
+  text-align: left;
+}
+
+#about-me p:last-of-type > a {
+  padding: 0;
+  margin: 0;
+  color: royalblue;
+}
+
 /* Projects section/grid */
 #my-grid {
   display: grid;
@@ -114,11 +147,11 @@ li {
   display: flex;
   align-items: flex-end;
   justify-self: stretch;
+  cursor: pointer;
 }
 
 .projects p {
   padding: 10px;
-  display: inline-block;
   background-color: rgba(227, 227, 227, 0.85);
   width: 100%;
   text-align: left;
@@ -140,6 +173,7 @@ li {
 #p3 {
   grid-area: p3;
   background-image: url(./images/css.jpg);
+  background-position: 80% 0;
 }
 
 #p4 {
@@ -154,7 +188,7 @@ li {
 
 #p6 {
   grid-area: p6;
-  background-image: url(./images/placeholder6.jpg);
+  background-image: url(./images/placeholder1.jpg);
 }
 
 /* Contact section */
@@ -163,12 +197,12 @@ li {
 }
 
 #contact img {
-  margin: 10px 50px;
+  margin: 10px 30px;
   max-height: 35px;
 }
 
 #contact {
-  margin-bottom: 100px;;
+  margin-bottom: 100px;
 }
 
 /* nav menu */
@@ -179,12 +213,6 @@ nav {
   background-color: var(--my-grey);
   padding: 15px;
 }
-
-nav a:hover {
-  color: #FFF;
-  background-color: #333;
-}
-
 
 /* Header section */
 header {
@@ -265,6 +293,12 @@ margin: 25px auto;
   #contact img {
     margin: 10px 20px;
   }
+
+  #github,#github img {
+    display: block; 
+    margin: 0 auto 20px;
+    max-height: 40px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -288,5 +322,17 @@ margin: 25px auto;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "p1 p1" "p2 p3" "p4 p5" "p6 .";
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .projects {
+    height: 330px;
+  }
+
+  #my-grid {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "p1 p1 p2 p3" "p4 p5 p6 .";
   }
 }
