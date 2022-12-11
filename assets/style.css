@@ -232,6 +232,7 @@ footer {
 
 /* Chart style */
 canvas {
+  margin-top: 50px;
   max-height: 500px;
   max-width: 500px;
 }
@@ -240,7 +241,7 @@ canvas {
 #my-chart {
 width: 100%;
 height: auto;
-margin: 0 auto;
+margin: 25px auto;
 }
   
 /* Responsive styles */
@@ -262,6 +263,10 @@ margin: 0 auto;
 
   .left img {
     max-width: 100px;
+  }
+
+  .right {
+    padding: 60px 0px 60px 20px;
   }
 }
 
