@@ -249,8 +249,11 @@ margin: 25px auto;
   h1, h2 {
     font-size: 1.5em;
   }
-  .right {
-    font-size: 0.8em;
+
+  /* https://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css */
+  .bold:after {
+    content:"\a";
+    white-space: pre;
   }
 }
 
