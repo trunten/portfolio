@@ -16,20 +16,29 @@
     <header>
       <h1>Welcome to My Portfolio</h1>
     </header>
-    <main>
       <section id="about-me">
         <h2>About Me</h2>
-        <img src="./assets/images/profile.jpg" alt="My profile picture">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum tristique, maximus justo sed, lobortis metus. Suspendisse potenti.</p>
+        <div class="left">
+         <img src="./assets/images/profile.png" alt="My profile picture">
+        </div>
+        <div class="right">
+          <p><span class="bold">Name:</span> Jonathan Davis</p>
+          <p><span class="bold">Profession:</span> Amateur Coder</p>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </section>
       <section id="projects">
         <h2>Projects</h2>
-        <ul>
-          <li>Project 1</li>
-          <li>Project 2</li>
-          <li>Project 3</li>
-        </ul>
-        <br>
+        <div id="grid">
+          <div id="p1" class="projects"><p>Project 1</p></div>
+          <div id="p2" class="projects"><p>Project 2</p></div>
+          <div id="p3" class="projects"><p>Project 3</p></div>
+          <div id="p4" class="projects"><p>Project 4</p></div>
+          <div id="p5" class="projects"><p>Project 5</p></div>
+          <div id="p6" class="projects"><p>Project 6</p></div>
+        </div>
         <canvas id="my-chart"></canvas>
       </section>
       <section id="contact">
