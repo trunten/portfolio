@@ -1,7 +1,7 @@
 /* vars */
 :root {
-  --my-grey: rgb(52, 58, 64, 0.95);
-  --near-black: #333;
+  --my-grey: rgba(52, 58, 64, 0.95);
+  --near-black: rgb(52, 58, 64);
   --near-white: rgb(248,249,250);
 }
 
@@ -77,7 +77,7 @@ h2 {
   font-size: 2em;
   padding-top: 50px;
   text-align: center;
-  color: #5f5f5f;
+  color: var(--near-black);
 }
 
 /* Define the style for unordered lists */
