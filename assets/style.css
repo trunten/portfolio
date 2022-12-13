@@ -1,8 +1,8 @@
 /* vars */
 :root {
-  --my-grey: #EEE;
-  --my-transparent-grey:rgb(238, 238, 238, 0.95);
+  --my-grey: rgb(52, 58, 64, 0.95);
   --near-black: #333;
+  --near-white: rgb(248,249,250);
 }
 
 /* Smooth scrolling */
@@ -13,8 +13,9 @@ html {
 /* General styles */
 body {
   font-family: sans-serif;
-  color: #333;
+  color: var(--near-black);
   margin: 0;
+  background-color: var(--near-white);
 }
 
 a {
@@ -32,10 +33,17 @@ a:hover {
 
 nav a {
   padding: 15px;
+  color: var(--near-white);
+}
+
+nav a:hover {
+  color: var(--near-black);
+  text-decoration: none;
+  background-color: var(--near-white);
 }
 
 nav a:hover, .projects a:hover {
-  color: #FFF;
+  color: var(--near-white);
   text-decoration: none;
   background-color: var(--near-black);
 }
@@ -56,20 +64,20 @@ section, footer {
 h1, h2 {
   font-family: sans-serif;
   font-weight: bold;
-  color: #5f5f5f;
 }
 
 h1 {
   display: inline-block;
   font-size: 2.5em;
   padding:  0 20px;
-  margin-top: 50px;
+  color: var(--near-white)
 }
 
 h2 {
   font-size: 2em;
   padding-top: 50px;
   text-align: center;
+  color: #5f5f5f;
 }
 
 /* Define the style for unordered lists */
@@ -211,8 +219,8 @@ li {
 nav {
   font-family: sans-serif;
   font-size: 1em;
-  color: var(--near-black);
-  background-color: var(--my-transparent-grey);
+  color: var(--near-white);
+  background-color: var(--my-grey);
   padding: 15px 5px;
 }
 
@@ -222,6 +230,7 @@ header {
   font-size: 1em;
   color: #333;
   background-color: var(--my-grey);
+  margin-top: 48px;
 }
 
 /* Define the font, size, and color for the main element */
@@ -229,7 +238,6 @@ main {
   font-family: sans-serif;
   font-size: 1em;
   color: var(--near-black);
-  background-color: #FFF;
 }
 
 /* Make the nav element fixed at the top of the page */
