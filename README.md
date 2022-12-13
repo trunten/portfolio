@@ -11,7 +11,8 @@
   - Skills
   - Contact links
 - There is a navigation menu that is fixed to the top of the page. The links in the navigation scroll to the corresponding section when clicked.
-- The work section contains titled images of your applications with the first application's image displaying larger in size than the others.
+- There is a "scroll to top button" fixed in the lower right corner of the page.
+- The work section contains titled images of my projects/applications with the first application's image displaying larger in size than the others.
 - When images of the applications are clicked the user is taken to that deployed application.
 - The site is responsive and when the page is resized, or viewed on various screens / devices, it adapts to the user viewport.
 - The site contains a bar chart displaying the percentage of various coding languages that have been utilised in my projects (***NB. I am unable to share the VBA projects as they contain sensitive information***)
