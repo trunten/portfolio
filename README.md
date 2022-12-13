@@ -27,10 +27,10 @@
 N/A
 
 ## Usage
-- [Link to deployed site](https://trunten.github.io/portfolio/)
+- [Link to deployed site](https://trunten.github.io/ubbc-portfolio-of-work/)
 - Preview of the finished site:
 
-[![Full page screenshot of site](./assets/images/full_page_screenshot.png)](https://trunten.github.io/portfolio/)
+[![Full page screenshot of site](./assets/images/full_page_screenshot.png)](https://trunten.github.io/ubbc-portfolio-of-work/)
 
 ## Credits
 - Bar Chart - https://www.chartjs.org
