@@ -8,6 +8,7 @@
 - The page presents my name, an avatar and links to to the following sections:
   - About
   - Projects
+  - Skills
   - Contact links
 - There is a navigation menu that is fixed to the top of the page. The links in the navigation scroll to the corresponding section when clicked.
 - The work section contains titled images of your applications with the first application's image displaying larger in size than the others.
