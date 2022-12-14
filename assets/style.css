@@ -153,6 +153,16 @@ li {
   align-items: flex-end;
   justify-self: stretch;
   cursor: pointer;
+  background-color: var(--my-grey);
+}
+
+.projects:hover {
+  /*
+    Box shaddow property order :
+    Horizontal Length | Vertical Length  | Blur Radius | Spread Radius | Shaddow colour 
+  */
+  box-shadow: 0px 0px 25px -3px rgba(0,0,0,0.75);
+  transition: all 0.4s ease-in-out;
 }
 
 .projects p {
@@ -206,13 +216,8 @@ li {
   max-height: 35px;
 }
 
-#github {
-  display: block;
-  margin-top: 80px;
-}
-
 #contact {
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 /* nav menu */
@@ -293,6 +298,7 @@ margin: 25px auto;
 
   #contact img {
     margin: 10px 20px;
+    max-height: 30px;
   }
 	
   #topButton {
