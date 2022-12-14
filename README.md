@@ -27,6 +27,10 @@ N/A
 
 ## Usage
 - [Link to deployed site](https://trunten.github.io/ubbc-portfolio-of-work/)
+- Jump to each section on the page by clicking the links in the navigation bar
+- Click on any of the project "tiles" to open up the deployed application in a new window/tab
+- Scroll back to the top at any time by clicking on the "Top" button in the lower right corner
+- Contact me through email or any of my social media profiles using the links provided in the contact section (***disabled currently to avoid information leak***)
 - Preview of the finished site:
 
 [![Full page screenshot of site](./assets/images/full_page_screenshot.png)](https://trunten.github.io/ubbc-portfolio-of-work/)
