@@ -1,7 +1,6 @@
 # Portfolio Page Challenge
 
 ## Description
-### Project Detail
 - I was given the task of building from scratch a personal portfolio of work to showcase my skills and talents to potential employers.
 - The page highlights my strongest work linking to deployed web applications.
 - The site has been developed using the core skills I've recently learned: grids, flexbox, media queries and CSS variables.
