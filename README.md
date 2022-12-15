@@ -39,8 +39,8 @@ N/A
 - Bar Chart - https://www.chartjs.org
 - Email Icon - https://www.iconspng.com
 - Twitter, LinkedIn & Facebook Icons - https://iconscout.com/contributors/pixel-icons
-- GitHub Icon - https://iconscout.com/contributors/icon-mafia
-- Background images - https://unsplash.com
+- GitHub Icon - https://iconscout.com/icons/developer-tool
+- Project background images - https://unsplash.com
 - https://stackoverflow.com/questions/10933837/line-break-like-br-using-only-css
 
 
